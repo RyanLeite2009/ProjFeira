@@ -1,0 +1,67 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #640007;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, transparent 50%, #640007 50%),url("css/dados2.png");
+    background-size: 100% 100%, 50% 100%;
+    background-position: right, left;
+    background-repeat: no-repeat;
+}
+
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    font-family: helvetica;
+    width: 420px;
+    padding: 30px;
+    background-color: white;
+    border-radius: 15px;
+    text-align: center;
+    border: 3px solid lightgray;
+}
+
+nav label{
+    font-family: "Roboto Mono", monospace;
+    font-size: larger;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+form p{
+    font-size: large;
+    font-family: "Roboto Mono", monospace;
+    text-align: center;
+    max-width: 390px;
+    line-height: 1.2;
+}
+input {
+    padding: 12px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+button {
+    padding: 12px 25px;
+    background-color: #640007;
+    color: white;
+    border: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
